@@ -1,5 +1,7 @@
 # test-vue
 
+<a href='https://vue-test-light.vercel.app/?vercelToolbarCode=8UK8rk88_vLxRuS' target="_blank" rel="noopener noreferrer nofollow"> Сlick here to see this app </a>
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
