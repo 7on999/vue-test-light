@@ -84,8 +84,8 @@
       <button @click="addProduct" class="btn"> Добавить продукт </button>
     </div>
 
-    <h2> Список продуктов</h2>
-    <p> Чтобы зачеркнуть продукт или вернуть продукт из числа зачеркнутых произведите дабл клик по карточке.</p>
+    <h2> Список продуктов:</h2>
+    <p> {{products.length ? 'Чтобы зачеркнуть продукт или вернуть продукт из числа зачеркнутых произведите дабл клик по карточке.': 'Cписок продуктов пуст' }}</p>
 
     <TransitionGroup name="list" tag="ul" class="list">
       <li 
@@ -108,6 +108,7 @@
        <button  @click="deleteProduct(i)" class="deleteBtn"> Удалить </button>
       </li>
     </TransitionGroup>
+
 
   </div>
 </template>
